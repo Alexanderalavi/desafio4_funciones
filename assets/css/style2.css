@@ -1,0 +1,28 @@
+body{
+display: flex;
+
+}
+
+#blue{
+width: 200px;
+height: 200px;
+background-color: blue;
+}
+
+#red{
+width: 200px;
+height: 200px;
+background-color: red;
+}
+
+#green{
+width: 200px;
+ height: 200px;
+background-color: green;
+}
+
+#yellow{
+width: 200px;
+ height: 200px;
+background-color: yellow;
+}
