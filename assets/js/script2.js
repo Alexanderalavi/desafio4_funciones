@@ -13,10 +13,12 @@ document.querySelector("#blue").addEventListener("click", function() {
   document.querySelector("#yellow").addEventListener("click", function() {
     this.style.backgroundColor = "black"
   })
-
-//q = morado 
-//w = gris
-//e = cafe
+//a = pink
+// s = orange
+// d = lightblue
+//q = purple
+//w = grey
+//e = brown
   document.addEventListener('keydown', function (event) {
     const key = document.querySelector('#key')
     if (event.key === 'a') {
@@ -26,11 +28,18 @@ document.querySelector("#blue").addEventListener("click", function() {
     } else if (event.key === 'd'){
       key.style.backgroundColor = 'lightblue'
     } else if (event.key === 'q' ) {
-      createNewDiv('purple')
+      newDiv('purple')
     } else if (event.key === 'w' ) {
-      createNewDiv('grey')
+      newDiv('grey')
     } else if (event.key === 'e' ) {
-      createNewDiv('brown')
+      newDiv('brown')
     }
     })
     
+
+function newDiv(color) {
+  const divCreated = document.createElement('div');
+  divCreated.classList.add('newBox');
+  divCreated.style.backgroundColor = color;
+  document.body.appendChild(divCreated);
+}
