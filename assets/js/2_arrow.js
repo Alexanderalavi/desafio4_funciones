@@ -5,4 +5,4 @@ let suma = function(a, b){
     
 //transformacion
 
-let suma = (a+b) => a+b
+suma = (a+b) => a+b
