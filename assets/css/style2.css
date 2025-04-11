@@ -26,3 +26,10 @@ width: 200px;
  height: 200px;
 background-color: yellow;
 }
+
+#key{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: black solid 3px;
+}
